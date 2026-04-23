@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="color-scheme" content="dark light" />
+  <title>arthurianresolve · Profile README preview</title>
+  <style>
+    :root { color-scheme: dark; --bg:#090d12; --paper:#0d1117; --toolbar:#10161d; --text:#e6edf3; --muted:#9da9b5; --border:#2b343e; --link:#b4ef77; --subtle:#151d25; }
+    :root[data-theme="light"] { color-scheme:light; --bg:#f3f5f7; --paper:#fff; --toolbar:#fff; --text:#1f2328; --muted:#596571; --border:#d1d9e0; --link:#356c26; --subtle:#f6f8fa; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; font-size:15px; line-height:1.6; }
+    a { color:var(--link); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    a:focus-visible,button:focus-visible { outline:2px solid var(--link); outline-offset:4px; }
+    button { font:inherit; }
+    .toolbar { border-bottom:1px solid var(--border); background:var(--toolbar); }
+    .toolbar-inner { max-width:1060px; margin:auto; min-height:75px; padding:14px 22px; display:flex; align-items:center; justify-content:space-between; gap:20px; }
+    .brand { display:flex; gap:12px; align-items:center; }
+    .brand svg { color:var(--link); flex:none; }
+    .brand strong { display:block; font-size:13px; letter-spacing:.2px; }
+    .brand span { display:block; font:10px ui-monospace,Consolas,monospace; letter-spacing:1.5px; color:var(--muted); }
+    .controls { display:flex; gap:6px; flex-wrap:wrap; }
+    .controls button,.controls a { display:inline-flex; align-items:center; justify-content:center; min-height:34px; border:1px solid var(--border); border-radius:5px; color:var(--text); padding:5px 11px; background:var(--paper); font-size:12px; font-weight:500; cursor:pointer; text-decoration:none; }
+    .controls button:hover,.controls a:hover { border-color:var(--muted); }
+    .controls button[aria-pressed="true"] { color:var(--link); border-color:var(--link); }
+    .preview-shell { max-width:1016px; margin:30px auto 24px; border:1px solid var(--border); border-radius:7px; overflow:hidden; background:var(--paper); }
+    .file-heading { display:flex; align-items:center; gap:9px; height:43px; padding:0 25px; border-bottom:1px solid var(--border); color:var(--muted); font:12px ui-monospace,Consolas,monospace; }
+    .file-heading span:last-child { margin-left:auto; font-size:10px; }
+    article { padding:30px 36px 25px; overflow-wrap:anywhere; }
+    article>p:first-child { margin:0 0 29px; }
+    article img { max-width:100%; height:auto; vertical-align:middle; }
+    article p[align="center"] img[height="34"] { height:34px; width:auto; }
+    article picture { display:block; }
+    article h1 { margin:24px 0 13px; padding-bottom:14px; border-bottom:1px solid var(--border); font-size:27px; line-height:1.3; font-weight:600; letter-spacing:-.5px; }
+    article h2 { margin:29px 0 17px; padding-bottom:9px; border-bottom:1px solid var(--border); font-size:21px; font-weight:600; letter-spacing:-.35px; }
+    article p { margin:0 0 18px; }
+    article blockquote { margin:24px 0; padding:0 1em; border-left:4px solid var(--border); color:var(--muted); }
+    article blockquote > :last-child { margin-bottom:0; }
+    article p[align="center"] { text-align:center; }
+    article h1[align="center"] { text-align:center; }
+    article p:has(>a>img) { margin-top:23px; margin-bottom:25px; }
+    article hr { border:0; height:1px; background:var(--border); margin:29px 0; }
+    /* Match GitHub's intrinsic table sizing so the preview exposes width mistakes. */
+    article table { display:block; width:max-content; max-width:100%; overflow:auto; border-spacing:0; border-collapse:collapse; margin:0 0 24px; font-size:14px; }
+    article th,article td { border:1px solid var(--border); padding:12px 16px; text-align:left; }
+    article th { background:var(--subtle); font-weight:600; font-size:12px; color:var(--muted); }
+    article tr:nth-child(even) { background:var(--subtle); }
+    article sub { color:var(--muted); font-size:12px; line-height:1.9; vertical-align:baseline; }
+    .preview-note { max-width:1016px; margin:0 auto 30px; padding:0 20px; color:var(--muted); text-align:center; font-size:11px; }
+    body.narrow .preview-shell { max-width:390px; }
+    body.narrow article { padding:20px 16px; }
+    body.narrow article h1 { font-size:23px; }
+    body.narrow article h2 { font-size:19px; }
+    body.narrow article table { font-size:12px; }
+    body.narrow article th,body.narrow article td { padding:9px; }
+    @media(max-width:600px) {
+      .toolbar-inner { align-items:flex-start; flex-direction:column; gap:12px; padding:14px 16px; }
+      .controls { width:100%; }
+      .controls button,.controls a { min-height:40px; flex:1; }
+      .preview-shell { margin:16px 8px; }
+      article { padding:20px 16px; }
+      article h1 { font-size:23px; }
+      article h2 { font-size:19px; }
+      article table { font-size:12px; }
+      article th,article td { padding:9px; }
+      .file-heading { padding:0 16px; }
+      .file-heading span:last-child { display:none; }
+    }
+  </style>
+</head>
+<body>
+  <header class="toolbar">
+    <div class="toolbar-inner">
+      <div class="brand">
+        <svg width="27" height="24" viewBox="0 0 33 29" aria-hidden="true"><path d="M15 0h3v6h3v6h6V9h3v6h3v12h-6v-3h-6v-3h-9v3H6v3H0V15h3V9h3v3h6V6h3z" fill="currentColor"/></svg>
+        <div><strong>arthurianresolve</strong><span>PROFILE README / PREVIEW</span></div>
+      </div>
+      <nav class="controls" aria-label="Preview controls">
+        <button id="theme" aria-pressed="false">Light theme</button>
+        <button id="motion" aria-pressed="false">Pause motion</button>
+        <button id="size" aria-pressed="false">Mobile view</button>
+        <a href="preview/diagnostics.html">Flight diagnostics ↗</a>
+        <a href="README.md">README ↗</a>
+      </nav>
+    </div>
+  </header>
+  <main class="preview-shell">
+    <div class="file-heading"><span aria-hidden="true">▤</span><span>arthurianresolve / README.md</span><span>LOCAL DRAFT</span></div>
+    <article aria-label="Profile README"><!-- README --></article>
+  </main>
+  <p class="preview-note">Local preview of the README · Real contribution snapshot · GitHub controls the final typography and spacing</p>
+  <script>
+    const root = document.documentElement;
+    const image = document.querySelector('#starship');
+    const themeButton = document.querySelector('#theme');
+    const motionButton = document.querySelector('#motion');
+    const sizeButton = document.querySelector('#size');
+    const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+    const preferredTheme = matchMedia('(prefers-color-scheme: dark)');
+    const narrowViewport = matchMedia('(max-width: 600px)');
+    const themeSources = [...document.querySelectorAll('picture source[media*="prefers-color-scheme"]')]
+      .map((source) => ({ source, dark: source.media.includes('dark'), compact: source.media.includes('max-width'),
+        responsive: Boolean(source.parentElement.querySelector('source[media*="max-width"]')) }));
+    let paused = false;
+    // Native README pictures follow the OS theme; the preview overrides that
+    // selection so its manual theme and width controls select the matching cards.
+    function updateThemeImages() {
+      const narrow = document.body.classList.contains('narrow') || narrowViewport.matches;
+      for (const { source, dark, compact, responsive } of themeSources) {
+        source.media = dark === (root.dataset.theme === 'dark') && (!responsive || compact === narrow) ? 'all' : 'not all';
+      }
+    }
+    // The toolbar selects local SVG variants; none of this script goes into GitHub's README.
+    function updateAnimation() {
+      // Match the README: use the override only when the normal SVG would be still.
+      const fallback = !paused && reducedMotion.matches ? '#play-animation' : '';
+      image.src = `assets/github-contribution-grid-starship-${root.dataset.theme}${paused ? '-static' : ''}.svg${fallback}`;
+      motionButton.textContent = paused ? 'Play motion' : 'Pause motion';
+      motionButton.setAttribute('aria-pressed', String(paused));
+    }
+    function updateTheme(light) {
+      root.dataset.theme = light ? 'light' : 'dark';
+      themeButton.textContent = light ? 'Dark theme' : 'Light theme';
+      themeButton.setAttribute('aria-pressed', String(light));
+      updateThemeImages();
+      updateAnimation();
+    }
+    themeButton.addEventListener('click', () => updateTheme(root.dataset.theme !== 'light'));
+    motionButton.addEventListener('click', () => { paused = !paused; updateAnimation(); });
+    sizeButton.addEventListener('click', () => {
+      const narrow = document.body.classList.toggle('narrow');
+      sizeButton.textContent = narrow ? 'Desktop view' : 'Mobile view';
+      sizeButton.setAttribute('aria-pressed', String(narrow));
+      updateThemeImages();
+    });
+    reducedMotion.addEventListener('change', updateAnimation);
+    preferredTheme.addEventListener('change', (event) => updateTheme(!event.matches));
+    narrowViewport.addEventListener('change', updateThemeImages);
+    updateTheme(!preferredTheme.matches);
+  </script>
+</body>
+</html>

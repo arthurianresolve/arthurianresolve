@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Flight diagnostics · arthurianresolve</title>
+  <link rel="stylesheet" href="diagnostics.css">
+</head>
+<body>
+  <main>
+    <header><div><p class="eyebrow">LOCAL ANIMATION REVIEW</p><h1>What is the fleet doing?</h1></div><nav><button id="theme" disabled>Light theme</button><a href="/">Back to profile ↗</a></nav></header>
+    <p id="summary" role="status">Loading the validated flight timeline…</p>
+    <section class="viewer" aria-label="Animation inspector"><div id="stage"></div>
+      <div class="transport"><button id="play" disabled>Play</button><label for="time">Playback time</label><input id="time" type="range" min="0" max="1" step="0.01" value="0" disabled><output id="clock" for="time">0.00 s</output></div>
+    </section>
+    <section class="decisions" aria-labelledby="decisions-title">
+      <div class="filters"><h2 id="decisions-title">Recorded decisions</h2><label>Ship <select id="ship"><option value="">All ships</option></select></label><label>Activity <select id="reason"><option value="">All activities</option></select></label></div>
+      <p class="hint">Select a decision to pause at that moment. Times are playback seconds; each crossing belongs to the same single ship sprite.</p>
+      <div id="events" class="events"></div><p id="count" class="hint"></p><button id="more" hidden>Show more decisions</button>
+    </section>
+  </main>
+  <script type="module" src="diagnostics.mjs"></script>
+</body>
+</html>

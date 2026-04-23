@@ -1,0 +1,14 @@
+{
+  "name": "arthurianresolve-profile",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "generate": "node scripts/generate-starship.mjs",
+    "generate:snapshot": "node scripts/generate-starship.mjs --input data/contributions.json",
+    "generate:diagnostics": "node scripts/generate-starship.mjs --input data/contributions.json --diagnostics .preview/flight-diagnostics.json",
+    "generate:stats": "node scripts/generate-stats.mjs --snapshot data/github-stats-source.svg",
+    "preview": "node scripts/preview.mjs",
+    "test": "node --test"
+  }
+}

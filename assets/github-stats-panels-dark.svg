@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="330" viewBox="0 0 940 330" role="img" aria-label="GitHub statistics and separate activity grade">
+<!-- Stats SVG adapted from https://github.com/rowkav09/GitHub-profile-stats
+MIT License
+Copyright (c) 2026 rowkav09
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<g data-panel="stats" transform="translate(300 0)">
+  <title>George Dietrichsbruckner (MacArthur)&apos;s stats</title>
+  <style>
+    .title { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #b4ef77; animation: fadeIn .8s ease-in-out forwards; }
+    .label { font: 400 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #e6edf3; }
+    .value { font: 700 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #e6edf3; }
+    .trend-text { font: 700 10px 'Segoe UI', Ubuntu, Sans-Serif; }
+    .ring-grade { font: 800 20px 'Segoe UI', Ubuntu, Sans-Serif; fill: #b4ef77; }
+    .ring-pct { font: 600 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #e6edf3; opacity: 0.7; }
+    .row { opacity: 0; animation: fadeIn .3s ease-in-out forwards; }
+    .ring-progress { animation: ringFill 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+    @keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
+    @keyframes ringFill { from { stroke-dashoffset: 251.32741228718345; } }
+    @media (prefers-reduced-motion: reduce) {
+      .row, .title { animation: none !important; opacity: 1; }
+      .ring-progress { animation: none !important; }
+    }
+  </style>
+  <rect x="0.5" y="0.5" width="639" height="329" rx="8" fill="#0d1117" stroke="#29333d"/>
+  <text x="25" y="43" class="title">George Dietrichsbruckner (MacArthur)&apos;s stats</text>
+    <g class="row" style="animation-delay:0ms">
+      <svg x="25" y="60" width="16" height="16" viewBox="0 0 16 16" fill="#b4ef77"><path d="M1.5 1.75V13.5h13.75a.75.75 0 0 1 0 1.5H.75a.75.75 0 0 1-.75-.75V1.75a.75.75 0 0 1 1.5 0zm14.28 2.53-5.25 5.25a.75.75 0 0 1-1.06 0L7 7.06 4.28 9.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.25-3.25a.75.75 0 0 1 1.06 0L10 7.94l4.72-4.72a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042z"/></svg>
+      <text x="50" y="72.5" class="label">Contributions This Year:</text>
+      <text x="615" y="72.5" class="value" text-anchor="end">2,751</text>
+      
+    </g>
+    <g class="row" style="animation-delay:150ms">
+      <svg x="25" y="85" width="16" height="16" viewBox="0 0 16 16" fill="#b4ef77"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm.5 4.75v3.44l2.78 1.61a.75.75 0 1 1-.75 1.3l-3.16-1.83A.75.75 0 0 1 7 8.69V4.75a.75.75 0 0 1 1.5 0z"/></svg>
+      <text x="50" y="97.5" class="label">Estimated Coding Hours:</text>
+      <text x="615" y="97.5" class="value" text-anchor="end">201.4h</text>
+      
+    </g>
+    <g class="row" style="animation-delay:300ms">
+      <svg x="25" y="110" width="16" height="16" viewBox="0 0 16 16" fill="#b4ef77"><path d="M11.93 8.5a4.002 4.002 0 0 1-7.86 0H.75a.75.75 0 0 1 0-1.5h3.32a4.002 4.002 0 0 1 7.86 0h3.32a.75.75 0 0 1 0 1.5h-3.32zM8 10.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/></svg>
+      <text x="50" y="122.5" class="label">Total Commits (2026):</text>
+      <text x="615" y="122.5" class="value" text-anchor="end">308</text>
+      
+    </g>
+    <g class="row" style="animation-delay:450ms">
+      <svg x="25" y="135" width="16" height="16" viewBox="0 0 16 16" fill="#b4ef77"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zM1.5 8a6.5 6.5 0 1 1 13 0 6.5 6.5 0 0 1-13 0z"/></svg>
+      <text x="50" y="147.5" class="label">Issues Opened:</text>
+      <text x="615" y="147.5" class="value" text-anchor="end">36</text>
+      
+    </g>
+    <g class="row" style="animation-delay:600ms">
+      <svg x="25" y="160" width="16" height="16" viewBox="0 0 16 16" fill="#b4ef77"><path d="M7.177 3.073 9.573.677A.25.25 0 0 1 10 .854v4.792a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354zM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5zm-2.25.75a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25zM11 2.5h-1V4h1a1 1 0 0 1 1 1v5.628a2.251 2.251 0 1 0 1.5 0V5A2.5 2.5 0 0 0 11 2.5zm1 10.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0zM3.75 12a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5z"/></svg>
+      <text x="50" y="172.5" class="label">Pull Requests:</text>
+      <text x="615" y="172.5" class="value" text-anchor="end">22</text>
+      
+    </g>
+    <g class="row" style="animation-delay:750ms">
+      <svg x="25" y="185" width="16" height="16" viewBox="0 0 16 16" fill="#b4ef77"><path d="M.75 8a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0v-5.5A.75.75 0 0 1 .75 8zm4-4a.75.75 0 0 1 .75.75v9.5a.75.75 0 0 1-1.5 0v-9.5A.75.75 0 0 1 4.75 4zM8.75 0a.75.75 0 0 1 .75.75v13.5a.75.75 0 0 1-1.5 0V.75a.75.75 0 0 1 .75-.75zm4 2a.75.75 0 0 1 .75.75v11.5a.75.75 0 0 1-1.5 0V2.75a.75.75 0 0 1 .75-.75z"/></svg>
+      <text x="50" y="197.5" class="label">Weekly Trend:</text>
+      <text x="615" y="197.5" class="value" text-anchor="end">61 commits</text>
+      <g transform="translate(210, 187)">
+          <path d="M 0 6 L 4 0 L 8 6 L 5 6 L 5 10 L 3 10 L 3 6 Z" fill="#3fb950"/>
+          <text x="12" y="9" fill="#3fb950" class="trend-text">+69%</text>
+        </g>
+    </g>
+    <g class="row" style="animation-delay:900ms">
+      <svg x="25" y="210" width="16" height="16" viewBox="0 0 16 16" fill="#b4ef77"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm.5 4.75v3.44l2.78 1.61a.75.75 0 1 1-.75 1.3l-3.16-1.83A.75.75 0 0 1 7 8.69V4.75a.75.75 0 0 1 1.5 0z"/></svg>
+      <text x="50" y="222.5" class="label">Avg Commits / Day:</text>
+      <text x="615" y="222.5" class="value" text-anchor="end">7.5</text>
+      
+    </g>
+    <g class="row" style="animation-delay:1050ms">
+      <svg x="25" y="235" width="16" height="16" viewBox="0 0 16 16" fill="#b4ef77"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 0 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8zm-8 11h8v1.5h-8a1 1 0 0 1 0-2z"/></svg>
+      <text x="50" y="247.5" class="label">Public Repos:</text>
+      <text x="615" y="247.5" class="value" text-anchor="end">9</text>
+      
+    </g>
+    <g class="row" style="animation-delay:1200ms">
+      <svg x="25" y="260" width="16" height="16" viewBox="0 0 16 16" fill="#b4ef77"><path d="M5.5 3.5a2 2 0 1 0 0 4 2 2 0 0 0 0-4zM2 5.5a3.5 3.5 0 1 1 5.898 2.549 5.508 5.508 0 0 1 3.034 4.084.75.75 0 1 1-1.482.235 4.001 4.001 0 0 0-7.9 0 .75.75 0 0 1-1.482-.236A5.507 5.507 0 0 1 3.102 8.05 3.49 3.49 0 0 1 2 5.5zM11 4a.75.75 0 1 0 0 1.5 1.5 1.5 0 0 1 .666 2.844.75.75 0 0 0-.416.672v.352a.75.75 0 0 0 .574.73c1.2.289 2.162 1.2 2.522 2.372a.75.75 0 1 0 1.434-.44 5.01 5.01 0 0 0-2.56-3.012A3 3 0 0 0 11 4z"/></svg>
+      <text x="50" y="272.5" class="label">Followers:</text>
+      <text x="615" y="272.5" class="value" text-anchor="end">12</text>
+      
+    </g>
+    <g class="row" style="animation-delay:1350ms">
+      <svg x="25" y="285" width="16" height="16" viewBox="0 0 16 16" fill="#b4ef77"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg>
+      <text x="50" y="297.5" class="label">Total Stars Earned:</text>
+      <text x="615" y="297.5" class="value" text-anchor="end">1</text>
+      
+    </g></g>
+<rect x="0.5" y="0.5" width="279" height="329" rx="8" fill="#0d1117" stroke="#29333d"/>
+<text x="25" y="43" class="title">Activity grade</text>
+<g data-panel="grade" transform="translate(140 180) scale(1.7) translate(-425 -185)"><circle cx="425" cy="185" r="40" fill="none" stroke="#29333d" stroke-width="5" opacity="0.3"/>
+  <circle cx="425" cy="185" r="40" fill="none" stroke="#b4ef77" stroke-width="5"
+    stroke-linecap="round" stroke-dasharray="251.32741228718345" stroke-dashoffset="92.99114254625786"
+    transform="rotate(-90 425 185)" class="ring-progress"/>
+  <text x="425" y="179" text-anchor="middle" class="ring-grade">A</text>
+  <text x="425" y="197" text-anchor="middle" class="ring-pct">63%</text></g>
+</svg>
