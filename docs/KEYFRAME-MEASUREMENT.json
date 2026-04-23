@@ -1,0 +1,45 @@
+{
+  "contract": "Same frozen plan/calendar and emitted CSS offset precision; no geometric resampling. Maximum 1e-8 pixel/degree interpolation difference at every original movement offset.",
+  "metric": "Deterministic SVG bytes and keyframe offsets; no frame-rate or runtime-speed claim.",
+  "repository": "profile_readme.md",
+  "branch": "master",
+  "commit": null,
+  "sourceState": "uncommitted local draft; immutable artifacts identified by SHA-256",
+  "environment": {
+    "node": "v26.8.1",
+    "platform": "win32",
+    "architecture": "x64",
+    "release": "10.0.26100",
+    "flags": [],
+    "dependencies": "none",
+    "cpuPowerCaches": "not applicable to deterministic byte/count metrics"
+  },
+  "planSha256": "7ffb6a19c1c0b522a6b10470d62259764cb61083377144838e915ee61b5bec88",
+  "calendarSha256": "fe0314c5812f382fa33319470f26a42fcaee4bfc7a895f5fdd656dc993adaf01",
+  "baselineSourceSha256": "995ead029fab68d7082719516c267f7fa165e3b61dcdfac8274e06b7331e42f7",
+  "candidateSources": {
+    "render.mjs": "f58efebd7cdbb2aff1447ac01b9581f39713874a8795a9a882de443306ee0e91",
+    "keyframes.mjs": "56aade17a04fe4813779306216a10129689bad785e7a2802f426923b7714a9db"
+  },
+  "harnessSha256": "9f5504b3f8f0649b0c80ae145066b5ca7c713dd6cf8f3da09ef94c81c143d1a4",
+  "method": "One serialized A/B artifact comparison. Frozen baseline reproduction required. Sampling statistics and background-load controls are not relevant to byte counts.",
+  "baseline": {
+    "bytes": 2108688,
+    "keyframeOffsets": 31783
+  },
+  "candidate": {
+    "bytes": 2092716,
+    "keyframeOffsets": 31507
+  },
+  "baselineSha256": "c431c99378ec1a4275695e9b588af81ae131dc86aa335de334f3bb34521d44e7",
+  "candidateSha256": "41506e45265cff32622eafa264b56fc61c48fe1909cde4ac781a0a92136d5316",
+  "checkedOffsets": 15957,
+  "maxInterpolationError": 2.842170943040401e-14,
+  "validated": {
+    "cells": 366,
+    "flights": 20,
+    "shots": 165,
+    "checkedPairs": 190
+  },
+  "exitCode": 0
+}

@@ -1,0 +1,67 @@
+name: Generate Contribution Invaders
+
+on:
+  schedule:
+    - cron: '23 */12 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/main.yml'
+      - 'scripts/**'
+      - 'src/**'
+      - 'test/**'
+      - 'package.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-invaders
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    # Full fleet clearance checks include deliberately dense calendars.
+    timeout-minutes: 20
+    steps:
+      - name: Check out source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+
+      - name: Set up Node
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '24'
+          package-manager-cache: false
+
+      - name: Test generator
+        run: node --test
+
+      - name: Generate from the public contribution calendar
+        env:
+          PROFILE_USER: ${{ github.repository_owner }}
+        run: node scripts/generate-starship.mjs --username "$PROFILE_USER" --out "$RUNNER_TEMP/starship" --snapshot "$RUNNER_TEMP/starship/contributions.json"
+
+      - name: Generate matching stats and grade panels
+        env:
+          PROFILE_USER: ${{ github.repository_owner }}
+        run: node scripts/generate-stats.mjs --username "$PROFILE_USER" --out "$RUNNER_TEMP/starship"
+
+      - name: Publish SVGs to output branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git ls-remote --exit-code --heads origin output > /dev/null; then
+            git fetch --no-tags origin output
+            git switch --detach FETCH_HEAD
+          else
+            status=$?
+            if [ "$status" -ne 2 ]; then exit "$status"; fi
+            git switch --orphan output
+          fi
+          cp "$RUNNER_TEMP/starship/"*.svg .
+          git add -- github-contribution-grid-starship-*.svg github-stats-panels-*.svg
+          if git diff --cached --quiet; then exit 0; fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Refresh contribution invaders'
+          git push origin HEAD:refs/heads/output
