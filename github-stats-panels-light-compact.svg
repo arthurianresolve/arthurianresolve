@@ -39,24 +39,24 @@ SOFTWARE.
       .ring-progress { animation: none !important; }
     }
   </style>
-  <rect x="0.5" y="0.5" width="494" height="329" rx="8.5" fill="#ffffff" stroke="#d0d7de"/>
+  <rect x="0.5" y="0.5" width="494" height="329" rx="8" fill="#ffffff" stroke="#d0d7de"/>
   <text x="25" y="43" class="title">George Dietrichsbruckner (MacArthur)&apos;s stats</text>
     <g class="row" style="animation-delay:0ms">
       <svg x="25" y="60" width="16" height="16" viewBox="0 0 16 16" fill="#3a7127"><path d="M1.5 1.75V13.5h13.75a.75.75 0 0 1 0 1.5H.75a.75.75 0 0 1-.75-.75V1.75a.75.75 0 0 1 1.5 0zm14.28 2.53-5.25 5.25a.75.75 0 0 1-1.06 0L7 7.06 4.28 9.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.25-3.25a.75.75 0 0 1 1.06 0L10 7.94l4.72-4.72a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042z"/></svg>
       <text x="50" y="72.5" class="label">Contributions This Year:</text>
-      <text x="470" y="72.5" class="value" text-anchor="end">2,752</text>
+      <text x="470" y="72.5" class="value" text-anchor="end">2,754</text>
       
     </g>
     <g class="row" style="animation-delay:150ms">
       <svg x="25" y="85" width="16" height="16" viewBox="0 0 16 16" fill="#3a7127"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm.5 4.75v3.44l2.78 1.61a.75.75 0 1 1-.75 1.3l-3.16-1.83A.75.75 0 0 1 7 8.69V4.75a.75.75 0 0 1 1.5 0z"/></svg>
       <text x="50" y="97.5" class="label">Estimated Coding Hours:</text>
-      <text x="470" y="97.5" class="value" text-anchor="end">201.9h</text>
+      <text x="470" y="97.5" class="value" text-anchor="end">202.9h</text>
       
     </g>
     <g class="row" style="animation-delay:300ms">
       <svg x="25" y="110" width="16" height="16" viewBox="0 0 16 16" fill="#3a7127"><path d="M11.93 8.5a4.002 4.002 0 0 1-7.86 0H.75a.75.75 0 0 1 0-1.5h3.32a4.002 4.002 0 0 1 7.86 0h3.32a.75.75 0 0 1 0 1.5h-3.32zM8 10.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/></svg>
       <text x="50" y="122.5" class="label">Total Commits (2026):</text>
-      <text x="470" y="122.5" class="value" text-anchor="end">309</text>
+      <text x="470" y="122.5" class="value" text-anchor="end">311</text>
       
     </g>
     <g class="row" style="animation-delay:450ms">
@@ -104,7 +104,7 @@ SOFTWARE.
       <text x="470" y="297.5" class="value" text-anchor="end">1</text>
       
     </g></g>
-<rect x="0.5" y="0.5" width="494" height="179" rx="8.5" fill="#ffffff" stroke="#d0d7de"/>
+<rect x="0.5" y="0.5" width="494" height="179" rx="8" fill="#ffffff" stroke="#d0d7de"/>
 <text x="25" y="83" class="title">Activity grade</text>
 <g data-panel="grade" transform="translate(375 90) scale(1.4) translate(-425 -185)"><circle cx="425" cy="185" r="40" fill="none" stroke="#d0d7de" stroke-width="5" opacity="0.3"/>
   <circle cx="425" cy="185" r="40" fill="none" stroke="#3a7127" stroke-width="5"
