@@ -44,19 +44,19 @@ SOFTWARE.
     <g class="row" style="animation-delay:0ms">
       <svg x="25" y="60" width="16" height="16" viewBox="0 0 16 16" fill="#b4ef77"><path d="M1.5 1.75V13.5h13.75a.75.75 0 0 1 0 1.5H.75a.75.75 0 0 1-.75-.75V1.75a.75.75 0 0 1 1.5 0zm14.28 2.53-5.25 5.25a.75.75 0 0 1-1.06 0L7 7.06 4.28 9.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.25-3.25a.75.75 0 0 1 1.06 0L10 7.94l4.72-4.72a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042z"/></svg>
       <text x="50" y="72.5" class="label">Contributions This Year:</text>
-      <text x="615" y="72.5" class="value" text-anchor="end">2,754</text>
+      <text x="615" y="72.5" class="value" text-anchor="end">2,798</text>
       
     </g>
     <g class="row" style="animation-delay:150ms">
       <svg x="25" y="85" width="16" height="16" viewBox="0 0 16 16" fill="#b4ef77"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm.5 4.75v3.44l2.78 1.61a.75.75 0 1 1-.75 1.3l-3.16-1.83A.75.75 0 0 1 7 8.69V4.75a.75.75 0 0 1 1.5 0z"/></svg>
       <text x="50" y="97.5" class="label">Estimated Coding Hours:</text>
-      <text x="615" y="97.5" class="value" text-anchor="end">202.9h</text>
+      <text x="615" y="97.5" class="value" text-anchor="end">204.4h</text>
       
     </g>
     <g class="row" style="animation-delay:300ms">
       <svg x="25" y="110" width="16" height="16" viewBox="0 0 16 16" fill="#b4ef77"><path d="M11.93 8.5a4.002 4.002 0 0 1-7.86 0H.75a.75.75 0 0 1 0-1.5h3.32a4.002 4.002 0 0 1 7.86 0h3.32a.75.75 0 0 1 0 1.5h-3.32zM8 10.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/></svg>
       <text x="50" y="122.5" class="label">Total Commits (2026):</text>
-      <text x="615" y="122.5" class="value" text-anchor="end">311</text>
+      <text x="615" y="122.5" class="value" text-anchor="end">314</text>
       
     </g>
     <g class="row" style="animation-delay:450ms">
@@ -74,16 +74,16 @@ SOFTWARE.
     <g class="row" style="animation-delay:750ms">
       <svg x="25" y="185" width="16" height="16" viewBox="0 0 16 16" fill="#b4ef77"><path d="M.75 8a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0v-5.5A.75.75 0 0 1 .75 8zm4-4a.75.75 0 0 1 .75.75v9.5a.75.75 0 0 1-1.5 0v-9.5A.75.75 0 0 1 4.75 4zM8.75 0a.75.75 0 0 1 .75.75v13.5a.75.75 0 0 1-1.5 0V.75a.75.75 0 0 1 .75-.75zm4 2a.75.75 0 0 1 .75.75v11.5a.75.75 0 0 1-1.5 0V2.75a.75.75 0 0 1 .75-.75z"/></svg>
       <text x="50" y="197.5" class="label">Weekly Trend:</text>
-      <text x="615" y="197.5" class="value" text-anchor="end">61 commits</text>
+      <text x="615" y="197.5" class="value" text-anchor="end">70 commits</text>
       <g transform="translate(210, 187)">
           <path d="M 0 6 L 4 0 L 8 6 L 5 6 L 5 10 L 3 10 L 3 6 Z" fill="#3fb950"/>
-          <text x="12" y="9" fill="#3fb950" class="trend-text">+69%</text>
+          <text x="12" y="9" fill="#3fb950" class="trend-text">+3%</text>
         </g>
     </g>
     <g class="row" style="animation-delay:900ms">
       <svg x="25" y="210" width="16" height="16" viewBox="0 0 16 16" fill="#b4ef77"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm.5 4.75v3.44l2.78 1.61a.75.75 0 1 1-.75 1.3l-3.16-1.83A.75.75 0 0 1 7 8.69V4.75a.75.75 0 0 1 1.5 0z"/></svg>
       <text x="50" y="222.5" class="label">Avg Commits / Day:</text>
-      <text x="615" y="222.5" class="value" text-anchor="end">7.5</text>
+      <text x="615" y="222.5" class="value" text-anchor="end">7.6</text>
       
     </g>
     <g class="row" style="animation-delay:1050ms">
@@ -95,7 +95,7 @@ SOFTWARE.
     <g class="row" style="animation-delay:1200ms">
       <svg x="25" y="260" width="16" height="16" viewBox="0 0 16 16" fill="#b4ef77"><path d="M5.5 3.5a2 2 0 1 0 0 4 2 2 0 0 0 0-4zM2 5.5a3.5 3.5 0 1 1 5.898 2.549 5.508 5.508 0 0 1 3.034 4.084.75.75 0 1 1-1.482.235 4.001 4.001 0 0 0-7.9 0 .75.75 0 0 1-1.482-.236A5.507 5.507 0 0 1 3.102 8.05 3.49 3.49 0 0 1 2 5.5zM11 4a.75.75 0 1 0 0 1.5 1.5 1.5 0 0 1 .666 2.844.75.75 0 0 0-.416.672v.352a.75.75 0 0 0 .574.73c1.2.289 2.162 1.2 2.522 2.372a.75.75 0 1 0 1.434-.44 5.01 5.01 0 0 0-2.56-3.012A3 3 0 0 0 11 4z"/></svg>
       <text x="50" y="272.5" class="label">Followers:</text>
-      <text x="615" y="272.5" class="value" text-anchor="end">12</text>
+      <text x="615" y="272.5" class="value" text-anchor="end">11</text>
       
     </g>
     <g class="row" style="animation-delay:1350ms">
@@ -108,8 +108,8 @@ SOFTWARE.
 <text x="25" y="43" class="title">Activity grade</text>
 <g data-panel="grade" transform="translate(140 180) scale(1.7) translate(-425 -185)"><circle cx="425" cy="185" r="40" fill="none" stroke="#29333d" stroke-width="5" opacity="0.3"/>
   <circle cx="425" cy="185" r="40" fill="none" stroke="#b4ef77" stroke-width="5"
-    stroke-linecap="round" stroke-dasharray="251.32741228718345" stroke-dashoffset="92.99114254625786"
+    stroke-linecap="round" stroke-dasharray="251.32741228718345" stroke-dashoffset="62.83185307179588"
     transform="rotate(-90 425 185)" class="ring-progress"/>
-  <text x="425" y="179" text-anchor="middle" class="ring-grade">A</text>
-  <text x="425" y="197" text-anchor="middle" class="ring-pct">63%</text></g>
+  <text x="425" y="179" text-anchor="middle" class="ring-grade">A+</text>
+  <text x="425" y="197" text-anchor="middle" class="ring-pct">75%</text></g>
 </svg>
