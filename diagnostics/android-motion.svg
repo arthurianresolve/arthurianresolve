@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="240" viewBox="0 0 540 240">
+  <title>Android SVG playback diagnostic</title>
+  <style>
+    text{font:16px sans-serif;fill:#e6edf3}
+    .reduced{display:none}
+    @media(prefers-reduced-motion:reduce){.normal{display:none}.reduced{display:inline}}
+    @keyframes travel{0%,100%{transform:translateX(0)}50%{transform:translateX(220px)}}
+    .css{animation:travel 4s linear infinite}
+  </style>
+  <rect width="540" height="240" rx="8" fill="#0d1117"/>
+  <text x="20" y="32">Android SVG playback diagnostic</text>
+  <text x="20" y="80">CSS motion</text>
+  <path d="M240 74H480M240 132H480" stroke="#30363d" stroke-width="2"/>
+  <g class="css"><circle cx="250" cy="74" r="10" fill="#66cfff"/></g>
+  <text x="20" y="138">Native SVG motion</text>
+  <circle cx="250" cy="132" r="10" fill="#b7ed66">
+    <animate attributeName="cx" values="250;470;250" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <text class="normal" x="20" y="194">Browser reduced-motion signal: OFF</text>
+  <text class="reduced" x="20" y="194">Browser reduced-motion signal: ON</text>
+  <text x="20" y="220" style="font-size:12px">Both dots should travel left and right on this diagnostic page.</text>
+</svg>
