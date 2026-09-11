@@ -44,7 +44,7 @@ SOFTWARE.
     <g class="row" style="animation-delay:0ms">
       <svg x="25" y="60" width="16" height="16" viewBox="0 0 16 16" fill="#3a7127"><path d="M1.5 1.75V13.5h13.75a.75.75 0 0 1 0 1.5H.75a.75.75 0 0 1-.75-.75V1.75a.75.75 0 0 1 1.5 0zm14.28 2.53-5.25 5.25a.75.75 0 0 1-1.06 0L7 7.06 4.28 9.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.25-3.25a.75.75 0 0 1 1.06 0L10 7.94l4.72-4.72a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042z"/></svg>
       <text x="50" y="72.5" class="label">Contributions This Year:</text>
-      <text x="470" y="72.5" class="value" text-anchor="end">2,809</text>
+      <text x="470" y="72.5" class="value" text-anchor="end">2,814</text>
       
     </g>
     <g class="row" style="animation-delay:150ms">
@@ -74,10 +74,10 @@ SOFTWARE.
     <g class="row" style="animation-delay:750ms">
       <svg x="25" y="185" width="16" height="16" viewBox="0 0 16 16" fill="#3a7127"><path d="M.75 8a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0v-5.5A.75.75 0 0 1 .75 8zm4-4a.75.75 0 0 1 .75.75v9.5a.75.75 0 0 1-1.5 0v-9.5A.75.75 0 0 1 4.75 4zM8.75 0a.75.75 0 0 1 .75.75v13.5a.75.75 0 0 1-1.5 0V.75a.75.75 0 0 1 .75-.75zm4 2a.75.75 0 0 1 .75.75v11.5a.75.75 0 0 1-1.5 0V2.75a.75.75 0 0 1 .75-.75z"/></svg>
       <text x="50" y="197.5" class="label">Weekly Trend:</text>
-      <text x="470" y="197.5" class="value" text-anchor="end">63 commits</text>
+      <text x="470" y="197.5" class="value" text-anchor="end">68 commits</text>
       <g transform="translate(210, 187)">
           <path d="M 0 4 L 4 10 L 8 4 L 5 4 L 5 0 L 3 0 L 3 4 Z" fill="#f85149"/>
-          <text x="12" y="9" fill="#f85149" class="trend-text">-25%</text>
+          <text x="12" y="9" fill="#f85149" class="trend-text">-19%</text>
         </g>
     </g>
     <g class="row" style="animation-delay:900ms">
@@ -95,21 +95,21 @@ SOFTWARE.
     <g class="row" style="animation-delay:1200ms">
       <svg x="25" y="260" width="16" height="16" viewBox="0 0 16 16" fill="#3a7127"><path d="M5.5 3.5a2 2 0 1 0 0 4 2 2 0 0 0 0-4zM2 5.5a3.5 3.5 0 1 1 5.898 2.549 5.508 5.508 0 0 1 3.034 4.084.75.75 0 1 1-1.482.235 4.001 4.001 0 0 0-7.9 0 .75.75 0 0 1-1.482-.236A5.507 5.507 0 0 1 3.102 8.05 3.49 3.49 0 0 1 2 5.5zM11 4a.75.75 0 1 0 0 1.5 1.5 1.5 0 0 1 .666 2.844.75.75 0 0 0-.416.672v.352a.75.75 0 0 0 .574.73c1.2.289 2.162 1.2 2.522 2.372a.75.75 0 1 0 1.434-.44 5.01 5.01 0 0 0-2.56-3.012A3 3 0 0 0 11 4z"/></svg>
       <text x="50" y="272.5" class="label">Followers:</text>
-      <text x="470" y="272.5" class="value" text-anchor="end">11</text>
+      <text x="470" y="272.5" class="value" text-anchor="end">13</text>
       
     </g>
     <g class="row" style="animation-delay:1350ms">
       <svg x="25" y="285" width="16" height="16" viewBox="0 0 16 16" fill="#3a7127"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg>
       <text x="50" y="297.5" class="label">Total Stars Earned:</text>
-      <text x="470" y="297.5" class="value" text-anchor="end">1</text>
+      <text x="470" y="297.5" class="value" text-anchor="end">4</text>
       
     </g></g>
 <rect x="0.5" y="0.5" width="494" height="179" rx="8" fill="#ffffff" stroke="#d0d7de"/>
 <text x="25" y="83" class="title">Activity grade</text>
 <g data-panel="grade" transform="translate(375 90) scale(1.4) translate(-425 -185)"><circle cx="425" cy="185" r="40" fill="none" stroke="#d0d7de" stroke-width="5" opacity="0.3"/>
   <circle cx="425" cy="185" r="40" fill="none" stroke="#3a7127" stroke-width="5"
-    stroke-linecap="round" stroke-dasharray="251.32741228718345" stroke-dashoffset="62.83185307179588"
+    stroke-linecap="round" stroke-dasharray="251.32741228718345" stroke-dashoffset="30.159289474462014"
     transform="rotate(-90 425 185)" class="ring-progress"/>
   <text x="425" y="179" text-anchor="middle" class="ring-grade">A+</text>
-  <text x="425" y="197" text-anchor="middle" class="ring-pct">75%</text></g>
+  <text x="425" y="197" text-anchor="middle" class="ring-pct">88%</text></g>
 </svg>
