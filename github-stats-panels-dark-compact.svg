@@ -44,7 +44,7 @@ SOFTWARE.
     <g class="row" style="animation-delay:0ms">
       <svg x="25" y="60" width="16" height="16" viewBox="0 0 16 16" fill="#b4ef77"><path d="M1.5 1.75V13.5h13.75a.75.75 0 0 1 0 1.5H.75a.75.75 0 0 1-.75-.75V1.75a.75.75 0 0 1 1.5 0zm14.28 2.53-5.25 5.25a.75.75 0 0 1-1.06 0L7 7.06 4.28 9.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.25-3.25a.75.75 0 0 1 1.06 0L10 7.94l4.72-4.72a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042z"/></svg>
       <text x="50" y="72.5" class="label">Contributions This Year:</text>
-      <text x="470" y="72.5" class="value" text-anchor="end">2,814</text>
+      <text x="470" y="72.5" class="value" text-anchor="end">2,816</text>
       
     </g>
     <g class="row" style="animation-delay:150ms">
@@ -74,10 +74,10 @@ SOFTWARE.
     <g class="row" style="animation-delay:750ms">
       <svg x="25" y="185" width="16" height="16" viewBox="0 0 16 16" fill="#b4ef77"><path d="M.75 8a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0v-5.5A.75.75 0 0 1 .75 8zm4-4a.75.75 0 0 1 .75.75v9.5a.75.75 0 0 1-1.5 0v-9.5A.75.75 0 0 1 4.75 4zM8.75 0a.75.75 0 0 1 .75.75v13.5a.75.75 0 0 1-1.5 0V.75a.75.75 0 0 1 .75-.75zm4 2a.75.75 0 0 1 .75.75v11.5a.75.75 0 0 1-1.5 0V2.75a.75.75 0 0 1 .75-.75z"/></svg>
       <text x="50" y="197.5" class="label">Weekly Trend:</text>
-      <text x="470" y="197.5" class="value" text-anchor="end">68 commits</text>
+      <text x="470" y="197.5" class="value" text-anchor="end">70 commits</text>
       <g transform="translate(210, 187)">
           <path d="M 0 4 L 4 10 L 8 4 L 5 4 L 5 0 L 3 0 L 3 4 Z" fill="#f85149"/>
-          <text x="12" y="9" fill="#f85149" class="trend-text">-19%</text>
+          <text x="12" y="9" fill="#f85149" class="trend-text">-17%</text>
         </g>
     </g>
     <g class="row" style="animation-delay:900ms">
@@ -108,8 +108,8 @@ SOFTWARE.
 <text x="25" y="83" class="title">Activity grade</text>
 <g data-panel="grade" transform="translate(375 90) scale(1.4) translate(-425 -185)"><circle cx="425" cy="185" r="40" fill="none" stroke="#29333d" stroke-width="5" opacity="0.3"/>
   <circle cx="425" cy="185" r="40" fill="none" stroke="#b4ef77" stroke-width="5"
-    stroke-linecap="round" stroke-dasharray="251.32741228718345" stroke-dashoffset="30.159289474462014"
+    stroke-linecap="round" stroke-dasharray="251.32741228718345" stroke-dashoffset="0"
     transform="rotate(-90 425 185)" class="ring-progress"/>
   <text x="425" y="179" text-anchor="middle" class="ring-grade">A+</text>
-  <text x="425" y="197" text-anchor="middle" class="ring-pct">88%</text></g>
+  <text x="425" y="197" text-anchor="middle" class="ring-pct">100%</text></g>
 </svg>
