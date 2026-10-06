@@ -77,7 +77,7 @@ SOFTWARE.
       <text x="615" y="197.5" class="value" text-anchor="end">9 commits</text>
       <g transform="translate(230, 187)">
           <path d="M 0 4 L 4 10 L 8 4 L 5 4 L 5 0 L 3 0 L 3 4 Z" fill="#f85149"/>
-          <text x="12" y="9" fill="#f85149" class="trend-text">-94%</text>
+          <text x="12" y="9" fill="#f85149" class="trend-text">-92%</text>
         </g>
     </g>
     <g class="row" style="animation-delay:900ms">
