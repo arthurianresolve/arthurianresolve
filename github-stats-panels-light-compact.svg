@@ -77,7 +77,7 @@ SOFTWARE.
       <text x="470" y="197.5" class="value" text-anchor="end">5 commits</text>
       <g transform="translate(230, 187)">
           <path d="M 0 4 L 4 10 L 8 4 L 5 4 L 5 0 L 3 0 L 3 4 Z" fill="#f85149"/>
-          <text x="12" y="9" fill="#f85149" class="trend-text">-37%</text>
+          <text x="12" y="9" fill="#f85149" class="trend-text">-29%</text>
         </g>
     </g>
     <g class="row" style="animation-delay:900ms">
@@ -110,6 +110,6 @@ SOFTWARE.
   <circle cx="425" cy="185" r="40" fill="none" stroke="#3a7127" stroke-width="5"
     stroke-linecap="round" stroke-dasharray="251.32741228718345" stroke-dashoffset="108.0707872834889"
     transform="rotate(-90 425 185)" class="ring-progress"/>
-  <text x="425" y="179" text-anchor="middle" class="ring-grade">B</text>
+  <text x="425" y="179" text-anchor="middle" class="ring-grade">C</text>
   <text x="425" y="197" text-anchor="middle" class="ring-pct">57%</text></g>
 </svg>
