@@ -83,7 +83,7 @@ SOFTWARE.
     <g class="row" style="animation-delay:900ms">
       <svg x="25" y="210" width="16" height="16" viewBox="0 0 16 16" fill="#3a7127"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm.5 4.75v3.44l2.78 1.61a.75.75 0 1 1-.75 1.3l-3.16-1.83A.75.75 0 0 1 7 8.69V4.75a.75.75 0 0 1 1.5 0z"/></svg>
       <text x="50" y="222.5" class="label">Avg Commits / Day:</text>
-      <text x="470" y="222.5" class="value" text-anchor="end">8.5</text>
+      <text x="470" y="222.5" class="value" text-anchor="end">8.4</text>
       
     </g>
     <g class="row" style="animation-delay:1050ms">
@@ -101,7 +101,7 @@ SOFTWARE.
     <g class="row" style="animation-delay:1350ms">
       <svg x="25" y="285" width="16" height="16" viewBox="0 0 16 16" fill="#3a7127"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg>
       <text x="50" y="297.5" class="label">Total Stars Earned:</text>
-      <text x="470" y="297.5" class="value" text-anchor="end">56</text>
+      <text x="470" y="297.5" class="value" text-anchor="end">57</text>
       
     </g></g>
 <rect x="0.5" y="0.5" width="494" height="179" rx="8" fill="#ffffff" stroke="#d0d7de"/>
