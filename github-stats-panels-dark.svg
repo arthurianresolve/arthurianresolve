@@ -77,7 +77,7 @@ SOFTWARE.
       <text x="615" y="197.5" class="value" text-anchor="end">1 commit</text>
       <g transform="translate(238, 187)">
           <path d="M 0 4 L 4 10 L 8 4 L 5 4 L 5 0 L 3 0 L 3 4 Z" fill="#f85149"/>
-          <text x="12" y="9" fill="#f85149" class="trend-text">-86%</text>
+          <text x="12" y="9" fill="#f85149" class="trend-text">-83%</text>
         </g>
     </g>
     <g class="row" style="animation-delay:900ms">
@@ -101,7 +101,7 @@ SOFTWARE.
     <g class="row" style="animation-delay:1350ms">
       <svg x="25" y="285" width="16" height="16" viewBox="0 0 16 16" fill="#b4ef77"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg>
       <text x="50" y="297.5" class="label">Total Stars Earned:</text>
-      <text x="615" y="297.5" class="value" text-anchor="end">81</text>
+      <text x="615" y="297.5" class="value" text-anchor="end">80</text>
       
     </g></g>
 <rect x="0.5" y="0.5" width="279" height="329" rx="8" fill="#0d1117" stroke="#29333d"/>
